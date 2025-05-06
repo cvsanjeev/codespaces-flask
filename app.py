@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model (no scaler used)
-model = joblib.load('model/stacked_model.pkl')
+model = joblib.load('stacked_model.pkl')
 
 # Define the required feature names in order
 FEATURES = [
